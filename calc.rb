@@ -3,13 +3,13 @@
 def calculator
 
 		puts "pick a number!"
-		num1 = gets.chomp().to_i
+		num1 = gets.chomp.to_i
 
 		puts "pick another number!"
-		num2 = gets.chomp().to_i
+		num2 = gets.chomp.to_i
 
 		puts "how you wanna do this: add, sub, mult, div"
-		type = gets.chomp()
+		type = gets.chomp
 
 
 		if type == "add"

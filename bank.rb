@@ -13,6 +13,7 @@ def bank
 			deposit = gets.chomp.to_i
 			scrizzle = scrizzle + deposit
 			puts "now you got #{scrizzle} bones"
+
 		elsif action == "withdraw"
 			puts "yo, how much"
 			deposit = gets.chomp.to_i
@@ -21,9 +22,11 @@ def bank
 			if scrizzle < 0
 				puts "now yuze po'"
 			end
+
 		else action == "check"
 			puts "now you got #{scrizzle} bones"
 		end
+		
 		puts "fixin on another transaction?"
 		teller = gets.chomp
 
